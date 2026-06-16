@@ -1,56 +1,57 @@
-                     🎬 Netflix Clone
+# Netflix Clone
 
-A Netflix-inspired movie browsing application built with React.
+A Netflix-inspired movie browsing app built with React. It lets users search for movies, browse category rows, open detailed movie information, and save favorites to a personal list.
 
-     🚀 Features
+## Live Demo
 
-Search movies using the OMDb API
-Netflix-style hero banner
-Multiple movie categories
-Trending Now
-Action Movies
-Fantasy Movies
-Movie details modal with full information
-Add movies to Favorites
-Remove movies from Favorites
-Favorites saved using localStorage
-React Router navigation
-Responsive design for desktop and mobile
+https://filmynot.netlify.app
 
+## Features
 
-       🛠️ Technologies Used
-React
-React Router DOM
-JavaScript (ES6+)
-CSS3
-OMDb API
-Local Storage
+- Netflix-style hero banner
+- Movie search using the OMDb API
+- Horizontal movie rows for categories
+- Movie details modal with plot, runtime, rating, genre, director, and actors
+- Add movies to My List
+- Remove movies from My List
+- Favorites saved with localStorage
+- React Router navigation
+- Responsive layout for desktop and mobile
+- Netlify deployment configuration
 
+## Tech Stack
 
-               🎯 Learning Outcomes
+- React
+- React Router DOM
+- JavaScript
+- CSS
+- OMDb API
+- localStorage
+- Netlify
 
-This project helped me learn:
+## What I Learned
 
-React Components
-Props
-State Management with useState
-Side Effects with useEffect
-API Integration
-Conditional Rendering
-React Router
-Local Storage
-Responsive Design
-Git and GitHub Workflow
-🌐 Future Improvements
-Real movie categories using TMDB API
-User authentication
-Watchlist synchronization
-Movie trailers
-Dark/Light theme toggle
+- Creating reusable React components
+- Passing data with props
+- Managing state with `useState`
+- Fetching API data with `useEffect`
+- Rendering lists conditionally
+- Building modals and category rows
+- Saving data in localStorage
+- Routing pages with React Router
+- Deploying a React app to Netlify
 
-👨‍💻 Author
+## Future Improvements
+
+- Add real trailer playback
+- Add user profiles
+- Use TMDB for richer categories and images
+- Add loading skeletons
+- Improve mobile navigation
+- Add authentication
+
+## Author
+
 Jeffrey
 
-Built as part of my Frontend Development learning journey.
-
-filmynot.netlify.app
+Built as part of my frontend development learning journey.
